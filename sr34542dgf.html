@@ -23,6 +23,7 @@
  </div>
 </body>
 <script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
     function readcode () {
     var value1 = "5445345";
     var value2 = document.getElementById("input").value;
@@ -30,7 +31,7 @@
         alert("Hola!!!" + "Keep GOing   Click Ok");
         location.href="http://google.com";}
     else {
-            alert("You typed: " + "Wrong Code :)");}
+            alert("You typed: " + "Wrong code");}
 }
 </script>
 </html>
